@@ -84,25 +84,5 @@ out/
 Icon
 
 
-# Windows specific system files
-Thumbs.db
-Thumbs.db:encryptable
-ehthumbs.db
-ehthumbs.促
-Desktop.ini
 
-# ====================================================================
-# Security & Environment Contexts (CRITICAL)
-# ====================================================================
-# Never commit credentials, private encryption tokens, or API secrets
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
 
-# Application configuration variable files containing secrets
-application-dev.properties
-application-prod.properties
-application-dev.yml
-application-prod.yml
